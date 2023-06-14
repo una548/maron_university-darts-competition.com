@@ -16,7 +16,10 @@ body{
     font-size: 64px;
     color: #F3F4F4;
     margin: 0;
-}
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 .atractive{
      padding-bottom: 40px;
@@ -25,6 +28,9 @@ body{
 .atractive h2{
     font-size: 28px;
     color: #F3F4F4;
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .aya{
@@ -42,6 +48,12 @@ body{
 .aya-img h3{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
 }
 
 .aya-p {
@@ -52,6 +64,11 @@ body{
     font-size: 20px;
     background: #525252;
     margin-left: 40px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
   }
   
   .aya-p :before {
@@ -85,6 +102,12 @@ body{
 .nagoshi-img h3{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
 }
 
 .nagoshi-p {
@@ -95,6 +118,11 @@ body{
     font-size: 20px;
     background: #525252;
     margin-right: 40px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
   }
   
   .nagoshi-p :before {
@@ -115,6 +143,9 @@ body{
 .Next h2{
     font-size: 28px;
     color: #F3F4F4;
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
   .yuta{
@@ -132,6 +163,12 @@ body{
 .yuta-img h3{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
 }
 
 .yuta-p {
@@ -142,6 +179,11 @@ body{
     font-size: 20px;
     background: #525252;
     margin-left: 40px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
   }
   
   .yuta-p :before {
@@ -157,6 +199,11 @@ body{
   .yuta-p p {
     margin: 37px;
     padding: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
   }
 
   .shinjiro{
@@ -175,6 +222,12 @@ body{
 .shinjiro-img h3{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
 }
 
 .shinjiro-p {
@@ -200,6 +253,11 @@ body{
   .shinjiro-p p {
     margin: 37px;
     padding: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
   }
 
 

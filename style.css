@@ -18,9 +18,10 @@ background-image: url(image/firstview1.jpg);
 background-size: cover;
 background-position: center center;
 }
+
+
 .first-view-switcher h1{
     margin: 0;
-
 }
 
 .first-view-switcher ul{
@@ -40,6 +41,9 @@ float: left;
     color: white;
     text-decoration: none;
     float: left;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .logo h3{
@@ -64,7 +68,7 @@ float: left;
     width: 500px;
     margin-top: 0;
     position: relative;
-    bottom: -150px;
+    bottom: -130px;
     left: 25px;
 }
 .head-title h1{
@@ -100,6 +104,9 @@ float: left;
 
 .about p{
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .about h3{
@@ -108,10 +115,12 @@ float: left;
 
 .about a{
     color: #F3F4F4;
+
 }
 
 .udc-logo p{
     padding-left: 193px;
+    margin: 0;
 }
 
 .udc-logo img{
@@ -141,10 +150,12 @@ float: left;
     color:#424446;
     background-color: #D9D9D9;
     width: 335px;
-    height: 22px;
     text-align: center;
     text-decoration: none;
     padding: 11px 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 #what{
@@ -184,22 +195,37 @@ float: left;
 .past-main h3{
     font-size: 24px;
     color: #F3F4F4;
-    margin-top: 0;
+    margin: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .past-main hr{
     margin: 0;
     color: #F3F4F4;
+
 }
 
 .past-main h2{
     color: #F3F4F4;
     font-size: 28px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
+
 
 .past-main p{
     color: #F3F4F4;
     font-size: 20px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-align: justify;
 }
 
 
@@ -232,6 +258,10 @@ float: left;
 .udl-main h3{
     font-size: 24px;
     color: #F3F4F4;
+    margin: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .udl-main hr{
@@ -242,11 +272,21 @@ float: left;
 .udl-main h2{
     color: #F3F4F4;
     font-size: 28px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .udl-main p{
     color: #F3F4F4;
     font-size: 20px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-align: justify;
 }
 
 .comment{
@@ -257,11 +297,21 @@ float: left;
 .comment h2{
     color: #F3F4F4;
     font-size: 28px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    text-align: justify;
 }
 
 .comment p{
     color: #F3F4F4;
     font-size: 20px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-align: justify;
 }
 
 #result{
@@ -283,6 +333,7 @@ float: left;
 .result-main{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #424446;
     width: 871px;
     height: 281px;
@@ -293,6 +344,7 @@ float: left;
     padding : 23px 19px;
     width: 457px;
     height: 239px;
+
 }
 
 .gameon a{
@@ -303,13 +355,22 @@ float: left;
     height: 22px;
     text-decoration: none;
     padding-top: 88px;
+    font-family: "urw-din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .gameon p{
     color: #F3F4F4;
     padding-top: 24px;
     padding-left: 4px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
 }
+
 
 #voice{
     width: 100vw;
@@ -326,17 +387,17 @@ float: left;
     font-size: 90px;
     font-family: "urw-din-condensed", sans-serif;
     font-weight: 400;
-    font-style: normal;
     margin: 0;
 }
 
 .voice-main{
     display: flex;
     flex-direction: row;
-    width: 871px;
-    height: 281px;
-    padding-left: 285px;
+    padding: 0 285px;
+    padding-bottom: 50px;
+
 }
+
 
 
 .voice1 img{
@@ -346,32 +407,39 @@ float: left;
 
 .voice1 a{
     display: block;
-    font-size: 15px;
+    font-size: 18px;
     color: #F3F4F4;
-    width: 210px;
     height: 22px;
     text-decoration: none;
     padding-top: 4px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
    
 }
 
 .voice2{
-    padding-left: 136px;
+    padding-left: 110px;
 }
 
 .voice2 img{
     width: 368px;
     height: 208px;
+    object-fit: cover;
 }
 
 .voice2 a{
     display: block;
-    font-size: 15px;
+    font-size: 18px;
     color: #F3F4F4;
-    width: 210px;
     height: 22px;
     text-decoration: none;
     padding-top: 4px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 #FQA{
@@ -389,14 +457,14 @@ float: left;
 }
 
 .accordion {
-    margin: 20px auto;
-    max-width: 60vw;
+    margin: 20px 0;
+    width: 850px;
     }
     .toggle {
     display: none;
     }
     .option {
-    position: relative;
+    position: relative;;
     margin-bottom: 1em;
     }
     .title,
@@ -407,21 +475,25 @@ float: left;
     transition: all 0.3s;
     }
     .title {
-    border: solid 1px #ccc;
-    padding: 1em;
+    border: solid 1px;
     display: block;
-    color: #333;
-    font-weight: bold;
+    color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: justify;
+    background-color: #424446;
     }
     .title::after,
     .title::before {
     content: "";
     position: absolute;
     right: 1.25em;
-    top: 1.25em;
+    top: 0.7em;
     width: 2px;
     height: 0.75em;
-    background-color: #999;
+    background-color: #F3F4F4;
     transition: all 0.3s;
     }
     .title::after {
@@ -434,8 +506,13 @@ float: left;
     .content p {
     margin: 0;
     padding: 0.5em 1em 1em;
-    font-size: 0.9em;
-    line-height: 1.5;
+    line-height: 30px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+
     }
 
     .toggle:checked + .title + .content {
@@ -453,10 +530,8 @@ float: left;
 #Contact{
     width: 100vw;
     background-color: #424446;
-}
-
-.contact-title{
-
+    padding-top :30px;
+    padding-bottom: 50px;
 }
 
 .contact-title h1{
@@ -467,7 +542,6 @@ float: left;
     font-style: normal;
     margin: 0;
     padding-left: 285px;
-    
 }
 
 .contact-main{
@@ -480,3 +554,49 @@ footer {
     text-align: center;
     color: #424446;
   }
+
+  @media screen and (max-width:479px){
+
+    .first-view-switcher{
+        height: 100vh;
+        background-image: url(image/re-firstview1.jpg);
+    }
+
+
+
+    .head-title h1{
+        font-size: 80px;
+        line-height: 70px;
+        position: absolute;
+        width: 281px;
+        height: 180px;
+        left: 10px;
+        top: 253px;
+    }
+    
+    #Next{
+        padding: 0 10%;
+        margin: auto;
+    }
+
+    .game h1{
+        font-size: 50px;
+    }
+
+    .about{
+        flex-direction: none;
+        width: 80%;
+    }
+
+    .about p
+    .about a{
+        font-size: 80%;
+    }
+
+    .udc-logo img{
+        padding-left: 0;
+        padding-top: 0;
+        width: 172px;
+    }
+
+}

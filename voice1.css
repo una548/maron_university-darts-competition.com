@@ -17,17 +17,25 @@ body{
 .Top h1{
     color: #F3F4F4;
     font-size: 51px;
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Top p{
     color: #F3F4F4;
     font-size: 20px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .Comment{
     display: flex;
     flex-direction: row;
-    padding: 26px 220px;
+    padding: 0 220px;
 }
 
 .comment-main{
@@ -38,6 +46,11 @@ body{
     font-size: 24px;
     color: #F3F4F4;
     margin: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .comment-main hr{
@@ -48,10 +61,16 @@ body{
 .comment-main p{
     color: #F3F4F4;
     font-size: 20px;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .comment-img img{
     width: 95%;
     object-fit: cover;
     padding-left: 30px;
+    padding-top: 10px;
 }

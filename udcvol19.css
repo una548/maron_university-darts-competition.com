@@ -10,23 +10,27 @@ body{
 }
 
 
-.top-title{
-    padding: 26px 285px;
-}
-
-.top-title h1{
+.head-title h1{
     font-size: 90px;
     color: #F3F4F4;
+    font-family: "urw-din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    left: 30px;
+    text-align: left;
+    padding: 0 240px;
+    padding-top: 50px;
 }
 
 .top-title img{
     width: 839px;
     height: 493px;
-    text-align: center;
+    padding: 0 240px;
 }
 
 .about{
-    padding: 26px 285px;  
+    padding: 26px 240px;  
 }
 
 .about-title h2{
@@ -43,6 +47,7 @@ body{
     width: 385px;
     height: 257px;
     padding-right: 64px;
+    padding-top: 20px;
 }
 
 .about-dh h3{
@@ -50,6 +55,10 @@ body{
     color: #F3F4F4;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .about-dh hr{
@@ -60,12 +69,21 @@ body{
 .about-dh p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
 }
 
 .about-sn h3{
     font-size: 24px;
     color: #F3F4F4;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .about-sn hr{
@@ -76,12 +94,21 @@ body{
 .about-sn p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
 }
 
 .about-sh h3{
     font-size: 24px;
     color: #F3F4F4;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .about-sh hr{
@@ -92,10 +119,15 @@ body{
 .about-sh p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
 }
 
 .result{
-    padding: 26px 285px;  
+    padding: 0 240px;
 }
 
 .result-title h2{
@@ -120,6 +152,10 @@ body{
     color: #F3F4F4;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .result-dh-main hr{
@@ -130,6 +166,11 @@ body{
 .result-dh-main p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
 }
 
 .result-nh{
@@ -149,6 +190,10 @@ body{
     color: #F3F4F4;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .result-nh-main hr{
@@ -159,6 +204,11 @@ body{
 .result-nh-main p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
 }
 
 .result-sh{
@@ -178,6 +228,10 @@ body{
     color: #F3F4F4;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .result-sh-main hr{
@@ -188,4 +242,16 @@ body{
 .result-sh-main p{
     font-size: 20px;
     color: #F3F4F4;
+    font-family: 'yu-gothic-pr6n', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 0;
+}
+
+
+@media screen and ( max-width:479px){
+    .head-title h1{
+        font-size: 70px;
+    }
 }
