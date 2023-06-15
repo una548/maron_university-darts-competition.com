@@ -34,7 +34,7 @@ body{
 
 .Comment{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 0 220px;
 }
 
@@ -73,4 +73,51 @@ body{
     object-fit: cover;
     padding-left: 30px;
     padding-top: 10px;
+}
+
+
+@media screen and (max-width:479px){
+    body{
+        width: 390px;
+    }
+
+    .Top{
+        padding: 0 44px;
+    }
+
+    .Top h1{
+        font-size: 18px;
+    }
+
+    .Top p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .Comment{
+        flex-direction: column-reverse;
+        padding: 0 44px ;
+    }
+
+    .comment-main h3{
+        font-size: 16px;
+    }
+
+    .comment-main hr{
+        width: 301px;
+    }
+    .comment-img{
+        text-align: center;
+    }
+
+    .comment-img img{
+        padding-left: 0;
+    }
+
+    .comment-main p{
+        font-size: 13px;
+        line-height: 24px; 
+        width: 302px;
+    }
+
 }

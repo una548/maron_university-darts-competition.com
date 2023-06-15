@@ -260,6 +260,114 @@ body{
     line-height: 30px;
   }
 
+  @media screen and (max-width:479px){
+
+    body{
+      width: 90vw;
+      margin: 0;
+      padding: 35px 20px;
+    }
+
+    .title h1{
+      font-size: 28px;
+    }
+
+    .atractive h2{
+      font-size: 13px;
+    }
+
+    .aya-img img{
+      width: 47px;
+      height: 47px;
+      margin-right: 20px;
+    }
+
+    .aya-img h3{
+      font-size: 6px;
+      margin-right: 20px;
+    }
+
+    .aya-p{
+      font-size: 8px;
+      line-height: 14px;
+      margin-left: 0;
+      width: 230px;
+    }
+
+    .aya-p p{
+      margin: 10px;
+    }
+
+    .nagoshi-img img{
+      width: 47px;
+      height: 47px;
+    }
+
+    .nagoshi-img h3{
+      font-size: 6px;
+    }
+
+    .nagoshi-p{
+      font-size: 8px;
+      line-height: 14px;
+      margin-left: 0;
+      width: 230px;
+    }
+
+    .nagoshi-p p{
+      margin: 10px;
+    }
+
+
+    .Next h2{
+      font-size: 13px;
+    }
+
+    .yuta-img img{
+      width: 47px;
+      height: 47px;
+      margin-right: 20px;
+    }
+
+    .yuta-img h3{
+      font-size: 6px;
+      margin-right: 20px;
+    }
+
+    .yuta-p{
+      margin-left: 0;
+      width: 230px;
+    }
+
+    .yuta-p p{
+      font-size: 8px;
+      line-height: 14px;
+      margin: 10px;
+    }
+
+    .shinjiro-img img{
+      width: 47px;
+      height: 47px;
+    
+    }
+
+    .shinjiro-img h3{
+      font-size: 6px;
+    }
+
+    .shinjiro-p{
+      margin-left: 0;
+      width: 230px;
+    }
+
+    .shinjiro-p p{
+      font-size: 8px;
+      line-height: 14px;
+      margin: 10px;
+    }
+
+
+  }
 
 
   

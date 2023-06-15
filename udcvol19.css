@@ -10,7 +10,7 @@ body{
 }
 
 
-.head-title h1{
+.top-title h1{
     font-size: 90px;
     color: #F3F4F4;
     font-family: "urw-din-condensed", sans-serif;
@@ -19,7 +19,7 @@ body{
     margin: 0;
     left: 30px;
     text-align: left;
-    padding: 0 240px;
+    padding: 64px 240px;
     padding-top: 50px;
 }
 
@@ -27,6 +27,7 @@ body{
     width: 839px;
     height: 493px;
     padding: 0 240px;
+    object-fit: cover;
 }
 
 .about{
@@ -48,6 +49,7 @@ body{
     height: 257px;
     padding-right: 64px;
     padding-top: 20px;
+    object-fit: cover;
 }
 
 .about-dh h3{
@@ -137,14 +139,16 @@ body{
 
 .result-dh{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-bottom: 61px;
+    justify-content: center;
 }
 
 .result-dh-img img{
     width: 385px;
     height: 257px;
     padding-right: 64px;
+    object-fit: cover;
 }
 
 .result-dh-main h3{
@@ -175,14 +179,16 @@ body{
 
 .result-nh{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-bottom: 61px;
+    justify-content: center;
 }
 
 .result-nh-img img{
     width: 385px;
     height: 257px;
     padding-right: 64px;
+    object-fit: cover;
 }
 
 .result-nh-main h3{
@@ -213,14 +219,16 @@ body{
 
 .result-sh{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-bottom: 61px;
+    justify-content: center;
 }
 
 .result-sh-img img{
     width: 385px;
     height: 257px;
     padding-right: 64px;
+    object-fit: cover;
 }
 
 .result-sh-main h3{
@@ -251,7 +259,153 @@ body{
 
 
 @media screen and ( max-width:479px){
-    .head-title h1{
-        font-size: 70px;
+
+    body{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .top-title h1{
+        font-size: 50px;
+        padding-top: 52px;
+        padding-right: 44px;
+        padding-left: 44px;
+        padding-bottom: 0;
+    }
+
+    .top-title img{
+        width: 302px;
+        height: 178px;
+        padding: 0 44px;
+    }
+
+    .about{
+        padding: 10px 44px;
+    }
+
+    .about-title h2{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .about-main{
+        flex-direction: column;
+    }
+
+    .about-main-img img{
+        padding-top: 0;
+        width: 302px;
+        height: 178px;
+    }
+
+    
+    .about-dh h3{
+        font-size: 16px;
+    }
+
+    .about-dh hr{
+        width: 302px;
+    }
+
+    .about-dh p{
+        font-size: 13px;
+    }
+
+    .about-sn h3{
+        font-size: 16px;
+    }
+
+    .about-sn hr{
+        width: 302px;
+    }
+
+    .about-sn p{
+        font-size: 13px;
+    }
+
+    .about-sh h3{
+        font-size: 16px;
+    }
+
+    .about-sh hr{
+        width: 302px;
+    }
+
+    .about-sh p{
+        font-size: 13px;
+    }
+
+    .result{
+        padding: 0 44px;
+    }
+
+    .result-title h2{
+        font-size: 20px;
+    }
+    .result-dh{
+        display: flex;
+        flex-direction: column;
+    }
+    .result-nh{
+        display: flex;
+        flex-direction: column;
+    }
+    .result-sh{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result-dh-main h3{
+        font-size: 16px;
+    }
+
+    .result-dh-main hr{
+        width: 302px;
+    }
+
+    .result-dh-main p{
+        font-size: 13px;
+    }
+
+    .result-dh-img img{
+        padding-top: 10px;
+        width: 302px;
+        height: 178px;
+    }
+
+    .result-nh-main h3{
+        font-size: 16px;
+    }
+
+    .result-nh-main hr{
+        width: 302px;
+    }
+
+    .result-nh-main p{
+        font-size: 13px;
+    }
+
+    .result-nh-img img{
+        padding-top: 10px;
+        width: 302px;
+        height: 178px;
+    }
+
+    .result-sh-main h3{
+        font-size: 16px;
+    }
+
+    .result-sh-main hr{
+        width: 302px;
+    }
+
+    .result-sh-main p{
+        font-size: 13px;
+    }
+
+    .result-sh-img img{
+        padding-top: 10px;
+        width: 302px;
+        height: 178px;
     }
 }

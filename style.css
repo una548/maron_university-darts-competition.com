@@ -25,6 +25,7 @@ background-position: center center;
 }
 
 .first-view-switcher ul{
+position: fixed;
 display: flex;
 width: 573px;
 justify-content: space-between;
@@ -45,6 +46,10 @@ float: left;
     font-weight: 400;
     font-style: normal;
 }
+
+#menu-btn-check {
+    display: none;
+    }
 
 .logo h3{
     font-size: 40px;
@@ -68,7 +73,7 @@ float: left;
     width: 500px;
     margin-top: 0;
     position: relative;
-    bottom: -130px;
+    bottom: -190px;
     left: 25px;
 }
 .head-title h1{
@@ -228,30 +233,37 @@ float: left;
     text-align: justify;
 }
 
+.past-img{
+    display: flex;
+    justify-content: center;
+}
 
 .past-img img{
     width: 418px;
     height: 405px;
+    object-fit: cover;
 }
 
 .udl{
-    display: flex;
-    flex-direction: row;
     padding-bottom: 20px;
+    display: flex;
+    width: 100vw;
+    flex-direction: row-reverse;
 }
 
 .udl-img{
-    padding-left: 285px;
-    padding-right: 34px;
-    
+    padding-right: 30px;
+    width: 419px;
 }
 
 .udl-img img{
     width: 418px;
     height: 405px;
+    object-fit: cover;
 }
 
 .udl-main{
+    padding-right: 220px;
     width: 419px;
 }
 
@@ -328,6 +340,7 @@ float: left;
     line-height: 110px;
     margin: 0;
     padding-bottom: 30px;
+    
 }
 
 .result-main{
@@ -344,6 +357,7 @@ float: left;
     padding : 23px 19px;
     width: 457px;
     height: 239px;
+    object-fit: cover;
 
 }
 
@@ -398,11 +412,10 @@ float: left;
 
 }
 
-
-
 .voice1 img{
     width: 368px;
     height: 208px; 
+    object-fit: cover;
 }
 
 .voice1 a{
@@ -550,19 +563,159 @@ float: left;
     gap: 0px 100px;
 }
 
+.twitter img{
+    width: 171px;
+    height :171px; 
+}
+.contact-udl img{
+    width: 171px;
+    height :171px;
+}
+.YouTube img{
+    width: 171px;
+    height :171px;
+}
+
 footer {
     text-align: center;
     color: #424446;
   }
 
+
+
+
   @media screen and (max-width:479px){
+
+    
+
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
 
     .first-view-switcher{
         height: 100vh;
         background-image: url(image/re-firstview1.jpg);
     }
 
+    #g-nav{
+        /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+        position:fixed;
+        z-index: 999;
+        /*ナビのスタート位置と形状*/
+        top:0;
+        right: -120%;
+        width:100%;
+        height: 100vh;/*ナビの高さ*/
+        background:#424446;
+        /*動き*/
+        transition: all 0.6s;
+    }
+    
+    /*アクティブクラスがついたら位置を0に*/
+    #g-nav.panelactive{
+        right: 0;
+    }
+    
+    /*ナビゲーションの縦スクロール*/
+    #g-nav.panelactive #g-nav-list{
+        /*ナビの数が増えた場合縦スクロール*/
+        position: fixed;
+        z-index: 999; 
+        width: 100%;
+        height: 100vh;/*表示する高さ*/
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /*ナビゲーション*/
+    #g-nav ul {
+        /*ナビゲーション天地中央揃え*/
+        position: absolute;
+        z-index: 999;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 0;
+        display: block;
+    }
+    
+    /*リストのレイアウト設定*/
+    
+    #g-nav li{
+        list-style: none;
+        text-align: center;
 
+    }
+    
+    #g-nav li a{
+        color: #F3F4F4;
+        text-decoration: none;
+        padding:10px;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        width: 140px;
+    }
+    
+    /*========= ボタンのためのCSS ===============*/
+    .openbtn{
+        position:fixed;
+        z-index: 9999;/*ボタンを最前面に*/
+        top:10px;
+        right: 10px;
+        cursor: pointer;
+        width: 50px;
+        height:50px;
+    }
+        
+    /*×に変化*/	
+    .openbtn span{
+        display: inline-block;
+        transition: all .4s;
+        position: absolute;
+        left: 14px;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #F3F4F4;
+          width: 45%;
+      }
+    
+    .openbtn span:nth-of-type(1) {
+        top:15px;	
+    }
+    
+    .openbtn span:nth-of-type(2) {
+        top:23px;
+    }
+    
+    .openbtn span:nth-of-type(3) {
+        top:31px;
+    }
+    
+    .openbtn.active span:nth-of-type(1) {
+        top: 18px;
+        left: 18px;
+        transform: translateY(6px) rotate(-45deg);
+        width: 30%;
+    }
+    
+    .openbtn.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    
+    .openbtn.active span:nth-of-type(3){
+        top: 30px;
+        left: 18px;
+        transform: translateY(-6px) rotate(45deg);
+        width: 30%;
+    }
+   
+    .logo{
+        display: none;
+      }
 
     .head-title h1{
         font-size: 80px;
@@ -571,32 +724,299 @@ footer {
         width: 281px;
         height: 180px;
         left: 10px;
-        top: 253px;
+        top: 160px;
     }
     
     #Next{
-        padding: 0 10%;
-        margin: auto;
+        padding: 0 44px;
+        margin-top: 30px;
+        margin-bottom: 70px;
     }
 
     .game h1{
         font-size: 50px;
+        margin: 0;
     }
 
     .about{
-        flex-direction: none;
-        width: 80%;
-    }
-
-    .about p
-    .about a{
-        font-size: 80%;
+        width: 302px;
+        height: 462px;
+        flex-direction: column;
     }
 
     .udc-logo img{
-        padding-left: 0;
-        padding-top: 0;
-        width: 172px;
+       padding-left: 57px;
+       padding-top: 59px;
     }
+
+   .udc-logo p{
+    font-size: 20px;
+    padding-left: 97px;
+   }
+
+   .soon{
+    padding: 0;
+   }
+
+   .soon h3{
+    font-size: 45px;
+    text-align: center;
+    padding-right: 25px;
+
+   }
+
+   .soon a{
+    width: 274px;
+    height: 42px;
+    padding: 0;
+    margin-left: 15px;
+   }
+
+   #what{
+    padding: 44px 0;
+   }
+
+   .what-title{
+    padding: 0 44px;
+   }
+
+   .what-title h1{
+    font-size: 50px;
+    padding-bottom: 0;
+   }
+
+   .past{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .past-main{
+    padding:0 44px ;
+    width: 301px;
+   }
+
+   .past-main h3{
+    font-size: 18px;
+   }
+
+   .past-main hr{
+    width: 301px;
+   }
+
+   .past-main h2{
+    font-size: 24px;
+    
+   }
+
+   .past-main p{
+    font-size: 13px;
+    line-height: 24px;
+   }
+   .past-img img{
+    width: 302px;
+    height: 162px;
+   }
+
+   .udl{
+    display: block;
+   }
+
+   .udl-main{
+    padding:0 44px ;
+    width: 301px;
+   }
+
+   .udl-main h3{
+    font-size: 18px;
+   }
+
+   .udl-main hr{
+    width: 301px;
+   }
+
+   .udl-main h2{
+    font-size: 24px;
+   }
+
+   .udl-main p{
+    font-size: 13px;
+    line-height: 24px;
+   }
+
+   .udl-img{
+    padding-left: 0;
+   }
+
+
+   .udl-img img{
+    width: 302px;
+    height: 257px;
+    padding-left: 44px;
+   }
+
+   .comment{
+    padding-left: 44px;
+    width: 301px;
+   }
+
+   .comment h2{
+    font-size: 24px;
+    margin: 0;
+   }
+
+   .comment p{
+    font-size: 13px;
+    line-height: 24px;
+   }
+
+   #result{
+    padding: 0 44px;
+    margin-top: 0;
+    margin-bottom: 50px;
+   }
+
+   .result-title h1{
+    font-size: 50px;
+    padding-bottom: 0;
+   }
+
+   .result-main{
+    flex-direction: column;
+    width: 279px;
+    height: 268px;
+    margin-left: 10px;
+   }
+
+   .gameon-img img{
+    width: 252px;
+    height: 132px;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 0;
+   }
+
+   .gameon a{
+    padding: 0;
+    font-size: 32px;
+    padding-left: 12px;
+   }
+
+   .gameon p{
+    margin: 0;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-top: 15px;
+   }
+
+   #voice{
+    height: 643px;
+    padding: 30px 0;
+   }
+
+   .voice-title{
+    padding: 26px 44px;
+   }
+
+   .voice-title h1{
+    font-size: 50px;
+    padding-bottom: 0;
+   }
+
+   .voice-main{
+    padding: 0 62px;
+   }
+
+   .voice-main{
+    flex-direction: column;
+    width: 279px;
+    height: 268px;
+    padding: 0;
+   }
+
+   .voice1 img{
+    width: 279px;
+    height: 184px;
+    padding:0 56px;
+   }
+
+   .voice1 a{
+    font-size: 12px;
+    padding-left: 56px;
+   }
+
+   .voice2 img{
+    width: 279px;
+    height: 184px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+   }
+
+   .voice2{
+    padding: 0;
+   }
+
+   .voice2 a{
+    font-size: 12px;
+    padding-left: 56px;
+   }
+
+   .gameon a{
+    padding: 0;
+    font-size: 32px;
+    padding-left: 12px;
+   }
+
+   .gameon p{
+    margin: 0;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-top: 15px;
+   }
+
+   #FQA{
+    padding: 0 44px;
+   }
+
+   .fqa-title h1{
+    font-size: 50px;
+   }
+
+   .accordion{
+    width: 291px;
+   }
+
+   .title{
+    font-size: 15px;
+   }
+
+
+   .content p{
+    font-size: 13px;
+    line-height: 20px;
+    width: 262px;
+   }
+
+   .contact-title h1{
+    padding: 0 44px;
+    font-size: 50px;
+   }
+   .contact-main{
+    gap:  0px 40px;
+    padding-top: 20px;
+   }
+   .twitter img{
+    width: 90px;
+    height: 90px;
+   }
+   .contact-udl img{
+    width: 90px;
+    height: 90px;
+   }
+   .YouTube img{
+    width: 90px;
+    height: 90px;
+   }
+
 
 }
