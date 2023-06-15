@@ -9,7 +9,10 @@ body{
     height: 100%;
     margin: 0;
 }
-
+.all{
+    width: 100%;
+    overflow: hidden;
+}
 .first-view-switcher{
 vertical-align: top;
 width: 100vw;
