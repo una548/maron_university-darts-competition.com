@@ -81,19 +81,18 @@ float: left;
     justify-content: flex-end;
 }
 .head-title{
-    width: 500px;
-    margin-top: 0;
+    margin: 0;
     position: relative;
     bottom: -190px;
     left: 25px;
 }
 .head-title h1{
     color: #F3F4F4;
-    font-size: 180px;
+    font-size: calc(70px + 50 * (100vw - 300px) / 600);
     font-family: "urw-din-condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
-    line-height: 150px;
+    line-height: 0.9;
     text-shadow: 0px 4px 2px #424446;
 }
 
@@ -112,11 +111,11 @@ float: left;
 }
 
 .about{
+    gap: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     background-color: #424446;
-    width: 871px;
-    height: 346px;
+    padding: 30px 123px;
 }
 
 .about p{
@@ -136,25 +135,25 @@ float: left;
 }
 
 .udc-logo p{
-    padding-left: 193px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .udc-logo img{
-    padding-left: 147px;
-    padding-top: 56px;
     width: 190px;
     height: 190px;
 }
 
 .soon{
-    padding: 73px 65px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .soon h3{
     font-size: 70px;
-    padding-left: 25px;
-    padding-bottom: 10px;
     margin: 0;
     font-family: "urw-din-condensed", sans-serif;
     font-weight: 400;
@@ -166,7 +165,7 @@ float: left;
     font-size: 18px;
     color:#424446;
     background-color: #D9D9D9;
-    width: 335px;
+    width: 286px;
     text-align: center;
     text-decoration: none;
     padding: 11px 0;
@@ -177,14 +176,9 @@ float: left;
 
 #what{
     background-color: #424446;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    width: 100vw;
+    padding: 94px 285px;
 }
 
-.what-title{
-    padding: 0 285px;
-}
 .what-title h1{
     color: #F3F4F4;
     font-size: 90px;
@@ -198,15 +192,12 @@ float: left;
 
 .past{
     display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-    width: 100vw;
+    justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .past-main{
-    padding-left: 285px;
-    padding-right: 34px;
-    width: 419px;
+    width: 53%;
 }
 
 .past-main h3{
@@ -219,6 +210,7 @@ float: left;
 }
 
 .past-main hr{
+    width: 90%;
     margin: 0;
     color: #F3F4F4;
 
@@ -243,40 +235,31 @@ float: left;
     font-style: normal;
     line-height: 30px;
     text-align: justify;
+    margin: 0;
 }
 
-.past-img{
-    display: flex;
-    justify-content: center;
-}
 
 .past-img img{
-    width: 418px;
-    height: 405px;
+    width: 340px;
     object-fit: cover;
 }
 
 .udl{
     padding-bottom: 20px;
     display: flex;
-    width: 100vw;
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-.udl-img{
-    padding-right: 30px;
-    width: 419px;
-}
+
 
 .udl-img img{
-    width: 418px;
-    height: 405px;
+    width: 340px;
     object-fit: cover;
 }
 
 .udl-main{
-    padding-right: 220px;
-    width: 419px;
+    width: 53%;
 }
 
 .udl-main h3{
@@ -289,6 +272,7 @@ float: left;
 }
 
 .udl-main hr{
+    width: 90%;
     margin: 0;
     color: #F3F4F4;
 }
@@ -311,11 +295,7 @@ float: left;
     font-style: normal;
     line-height: 30px;
     text-align: justify;
-}
-
-.comment{
-    padding-left: 285px;
-    width: 871px;
+    margin: 0;
 }
 
 .comment h2{
@@ -360,14 +340,13 @@ float: left;
     flex-direction: row;
     justify-content: center;
     background-color: #424446;
-    width: 871px;
     height: 281px;
 }
 
 
 .gameon-img img{
     padding : 23px 19px;
-    width: 457px;
+    width: 395px;
     height: 239px;
     object-fit: cover;
 
@@ -422,14 +401,14 @@ float: left;
 
 .voice-main{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     padding: 0 285px;
     padding-bottom: 50px;
 
 }
 
 .voice1 img{
-    width: 368px;
+    width: 340px;
     height: 208px; 
     object-fit: cover;
 }
@@ -452,12 +431,8 @@ float: left;
     color: #A4AB2D;
 }
 
-.voice2{
-    padding-left: 110px;
-}
-
 .voice2 img{
-    width: 368px;
+    width: 340px;
     height: 208px;
     object-fit: cover;
 }
@@ -495,7 +470,6 @@ float: left;
 
 .accordion {
     margin: 20px 0;
-    width: 850px;
     }
     .toggle {
     display: none;
@@ -565,10 +539,8 @@ float: left;
         }
 
 #Contact{
-    width: 100vw;
     background-color: #424446;
-    padding-top :30px;
-    padding-bottom: 50px;
+    padding: 30px 285px 50px 285px;
 }
 
 .contact-title h1{
@@ -578,7 +550,6 @@ float: left;
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    padding-left: 285px;
 }
 
 .contact-main{
@@ -787,37 +758,29 @@ footer {
     }
 
     .about{
-        width: 302px;
-        height: 462px;
         flex-direction: column;
-    }
-
-    .udc-logo img{
-       padding-left: 57px;
-       padding-top: 59px;
+        padding: 35px 56px;
     }
 
    .udc-logo p{
     font-size: 20px;
-    padding-left: 97px;
    }
 
    .soon{
+    gap: 10px;
     padding: 0;
    }
 
    .soon h3{
-    font-size: 45px;
+    font-size: 46px;
     text-align: center;
-    padding-right: 25px;
 
    }
 
    .soon a{
-    width: 274px;
+    width: 190px;
     height: 42px;
     padding: 0;
-    margin-left: 15px;
    }
 
    #what{
@@ -854,6 +817,9 @@ footer {
    .past-main h2{
     font-size: 24px;
     
+   }
+   .past-img{
+    margin: 0 auto;
    }
 
    .past-main p{
@@ -892,7 +858,7 @@ footer {
    }
 
    .udl-img{
-    padding-left: 0;
+    padding: 0;
    }
 
 
@@ -1038,7 +1004,9 @@ footer {
     font-size: 15px;
    }
 
-
+   #Contact{
+    padding: 0 44px;
+   }
    .content p{
     font-size: 13px;
     line-height: 20px;
@@ -1046,11 +1014,10 @@ footer {
    }
 
    .contact-title h1{
-    padding: 0 44px;
     font-size: 50px;
    }
    .contact-main{
-    gap:  0px 40px;
+    gap:  0px 15px;
     padding-top: 20px;
    }
    .twitter img{

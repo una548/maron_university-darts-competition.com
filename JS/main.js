@@ -1,7 +1,4 @@
 $(function($){
-var sp='_sp.';
-var pc='_pc.';
-
 
     $('.first-view-switcher').bgSwitcher({
         images:['image/firstview1.jpg','image/firstview2.jpg', 'image/firstview3.jpg'],

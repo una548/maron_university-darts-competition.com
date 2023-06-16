@@ -39,7 +39,6 @@ body{
 }
 
 .comment-main{
-    width: 481px;
 }
 
 .comment-main h3{
@@ -54,6 +53,7 @@ body{
 }
 
 .comment-main hr{
+    width: 100%;
     margin: 0;
     color: #F3F4F4;
 }
@@ -69,8 +69,8 @@ body{
 }
 
 .comment-img img{
-    width: 95%;
     object-fit: cover;
+    height: auto;
     padding-left: 30px;
     padding-top: 10px;
 }
@@ -79,10 +79,11 @@ body{
 @media screen and (max-width:479px){
     body{
         width: 390px;
+        margin: 25px 0;
     }
 
     .Top{
-        padding: 0 44px;
+        padding: 0 44px 20px 44px;
     }
 
     .Top h1{
@@ -112,6 +113,7 @@ body{
 
     .comment-img img{
         padding-left: 0;
+        width: -webkit-fill-available;
     }
 
     .comment-main p{
