@@ -11,10 +11,19 @@ body{
     height: 100%;
     margin: 0;
 }
+
+main{
+    position: relative;
+    z-index: -1;
+}
+
+
 .all{
     width: 100%;
     overflow: hidden;
 }
+
+
 .first-view-switcher{
 vertical-align: top;
 width: 100vw;
@@ -649,6 +658,7 @@ footer {
         padding: 0;
     }
 
+
     .first-view-switcher{
         height: 100vh;
         background-image: url(image/re-firstview1.jpg);
@@ -771,6 +781,7 @@ footer {
         transform: translateY(-6px) rotate(45deg);
         width: 30%;
     }
+
    
     .logo{
         display: none;
