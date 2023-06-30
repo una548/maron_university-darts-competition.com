@@ -494,7 +494,7 @@ opacity:0;
 }
 
 #FQA{
-   padding: 50px 299pc;
+   padding: 50px 299px;
     animation-name:fadeInAnime;
 animation-duration:3s;
 animation-fill-mode:forwards;
@@ -513,7 +513,7 @@ opacity:0;
     margin: 20px 0;
     }
     .toggle {
-    display: none;
+        display: none;
     }
     .option {
     position: relative;;
