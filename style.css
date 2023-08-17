@@ -191,7 +191,7 @@ opacity:0;
     display: block;
     font-size: 18px;
     color:#424446;
-    background-color: #D9D9D9;
+    background-color: #F3F4F4;
     width: 286px;
     text-align: center;
     text-decoration: none;
@@ -199,6 +199,11 @@ opacity:0;
     font-family: 'yu-gothic-pr6n', sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.soon a:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
 }
 
 #what{
@@ -579,17 +584,56 @@ opacity:0;
         transform: rotate(135deg) !important;
         }
 
-#Contact{
+#Sponsor{
     background-color: #424446;
     padding: 30px 285px 50px 285px;
     animation-name:fadeInAnime;
-animation-duration:3s;
-animation-fill-mode:forwards;
-opacity:0;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+
+.sponsor-title h1{
+    color: #F3F4F4;
+    font-size: 90px;
+    font-family: "urw-din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.sponsor-main{
+    display: flex;
+    justify-content: center;
+    gap: 0px 100px;
+}
+
+.target img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.onemode img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.sdarts img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+#Contact{
+    background-color: #F3F4F4;
+    padding: 30px 285px 50px 285px;
+    animation-name:fadeInAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
 }
 
 .contact-title h1{
-    color: #F3F4F4;
+    color: #424446;
     font-size: 90px;
     font-family: "urw-din-condensed", sans-serif;
     font-weight: 400;
@@ -636,8 +680,9 @@ opacity:0;
 }
 
 footer {
+    background-color: #424446;
     text-align: center;
-    color: #424446;
+    color: #F3F4F4;
     font-family: "urw-din-condensed", sans-serif;
     margin: auto 0;
   }
