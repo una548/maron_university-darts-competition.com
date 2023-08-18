@@ -210,10 +210,10 @@ opacity:0;
     background-color: #424446;
     padding: 94px 285px;
     animation-name:fadeInAnime;
-animation-duration:3s;
-animation-fill-mode:forwards;
-opacity:0;
-}
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
 
 .what-title h1{
     color: #F3F4F4;
@@ -586,7 +586,6 @@ opacity:0;
 
 #Sponsor{
     background-color: #424446;
-    padding: 30px 285px 50px 285px;
     animation-name:fadeInAnime;
     animation-duration:3s;
     animation-fill-mode:forwards;
@@ -595,6 +594,7 @@ opacity:0;
 
 .sponsor-title h1{
     color: #F3F4F4;
+    padding: 30px 285px 30px 285px;
     font-size: 90px;
     font-family: "urw-din-condensed", sans-serif;
     font-weight: 400;
@@ -605,10 +605,17 @@ opacity:0;
 .sponsor-main{
     display: flex;
     justify-content: center;
-    gap: 0px 100px;
+    flex-wrap: wrap;
+    gap: 15px 100px;
+    padding: 0px 240px 50px 240px;
 }
 
 .target img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.lstyle img:hover{
     box-shadow: 0 7px 10px #A4AB2D;
     border-color: transparent;
 }
@@ -619,6 +626,31 @@ opacity:0;
 }
 
 .sdarts img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.tjdarts img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.macs img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.trico img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.dargon img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
+.glanz img:hover{
     box-shadow: 0 7px 10px #A4AB2D;
     border-color: transparent;
 }
@@ -1094,8 +1126,64 @@ footer {
     font-size: 15px;
    }
 
-   #Contact{
+   #Sponsor{
+   
+   }
+
+   .sponsor-title h1{
+    font-size: 50px;
     padding: 0 44px;
+   }
+   .sponsor-main{
+    gap:  0px 15px;
+    padding: 20px 44px 0px 44px;
+   }
+   .target img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .lstyle img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .onemode img{
+    width: 90px;
+    height: 90px;
+   }
+   .sdarts img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .tjdarts img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .macs img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .trico img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .dargon img{
+    width: 90px;
+    height: 90px;
+   }
+
+   .glanz img{
+    width: 90px;
+    height: 90px;
+   }
+
+   #Contact{
+    padding: 20px 44px;
    }
    .content p{
     font-size: 13px;
