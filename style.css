@@ -630,6 +630,11 @@ opacity:0;
     border-color: transparent;
 }
 
+.dartslive img:hover{
+    box-shadow: 0 7px 10px #A4AB2D;
+    border-color: transparent;
+}
+
 .baddarts img:hover{
     box-shadow: 0 7px 10px #A4AB2D;
     border-color: transparent;
